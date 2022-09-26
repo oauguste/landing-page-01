@@ -1,0 +1,125 @@
+.header-div .navheader{
+    display: flex;
+    border: 1px solid red;
+    padding: 8px;
+    margin: 10px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border: 1px dotted blue;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.headerlogo{
+    flex: auto ;
+}
+.bodytext{
+    border:1px solid brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maintext{
+    
+    border:1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 50px;
+    flex: 0 1 auto;
+}
+.bigtext{
+    border: 1px solid black;
+    height: 525px;
+    background-color: aquamarine;
+}
+.image1{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    flex: 1;
+    border: 2px double black;
+    
+}
+.secondspace{
+    border: 4px double black;
+}
+
+.secondtext{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: center;
+}
+#index-gallery{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:15px;
+  flex-wrap:wrap;
+  }
+  img{
+    width:200px;
+    height:200px;
+  }
+  .item{
+    margin:15px;
+    padding:0;
+    display:flex;
+    flex-direction:column; 
+    text-align:center;
+  }
+  .quoteblock{
+    height: 400px;
+    width: auto%;
+    border: 1px solid orange;
+    display: flex;
+    padding: 50px;
+  }
+  .quote {
+    margin: 0 auto;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+    width: auto;
+    
+  }
+  .quote figcaption,
+  .quote blockquote {
+    margin: 7em;
+  }
+  .quote figcaption{
+    text-align: end;
+  }
+  .bottompage{
+    height: 400px;
+    border: 1px solid purple;
+  }
+  .calltoaction{
+    height: 200px;
+    border: 1px solid green;
+    margin: 100px;
+    display: flex;
+  }
+  .calltoactiontext{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    border: 1px solid orange;
+    padding: 30px;
+    margin-left: 50px;
+  }
+  .calltoactionbutton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+    border: 1px solid cyan;
+    width: 50%;
+    margin-right: 50px;
+    align-items: center;
+
+  }
